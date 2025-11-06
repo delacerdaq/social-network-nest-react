@@ -1,7 +1,7 @@
 {
   "scripts": {
-    "start": "ts-node scr/main.ts",
-    "start:dev": "ts-node-dev --respawn --transpile-only scr/main.ts"
+    "start": "ts-node src/main.ts",
+    "start:dev": "ts-node-dev --respawn --transpile-only src/main.ts"
   },
   "dependencies": {
     "@nestjs/common": "^11.1.8",
